@@ -1,0 +1,13 @@
+baseURL = "https://molamk.github.io/"
+languageCode = "en-us"
+title = "Technical articles"
+theme = "basics"
+enableRobotsTXT = true
+canonifyURLs = true
+
+[permalinks]
+    post = "/blog/:title/"
+[params]
+    author = "molamk"
+    github = "molamk"
+    twitter = "_molamk"

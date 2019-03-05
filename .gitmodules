@@ -1,0 +1,6 @@
+[submodule "themes/basics"]
+	path = themes/basics
+	url = git@github.com:molamk/basics.git
+[submodule "public"]
+	path = public
+	url = git@github.com:molamk/molamk.github.io.git
