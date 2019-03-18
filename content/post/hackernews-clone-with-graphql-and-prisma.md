@@ -4,6 +4,15 @@ date: 2019-03-05T06:44:15-05:00
 draft: false
 ---
 
+# Table of contents
+
+- [Table of contents](#table-of-contents)
+- [Set-up the project](#set-up-the-project)
+  - [Create the project directory](#create-the-project-directory)
+  - [Set-up `npm`](#set-up-npm)
+  - [Create a `src/index.js` file](#create-a-srcindexjs-file)
+  - [Run the server](#run-the-server)
+
 # Set-up the project
 
 ## Create the project directory

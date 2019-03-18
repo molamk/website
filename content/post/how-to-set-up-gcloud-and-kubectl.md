@@ -4,6 +4,26 @@ date: 2019-03-03T20:28:25-05:00
 draft: false
 ---
 
+# Table of contents
+
+- [Table of contents](#table-of-contents)
+- [Install `google-cloud-sdk`](#install-google-cloud-sdk)
+- [Initialize `gcloud`](#initialize-gcloud)
+- [Enable APIs on Google Cloud](#enable-apis-on-google-cloud)
+- [Install `kubectl`](#install-kubectl)
+- [Provision the cluster](#provision-the-cluster)
+  - [Configure the compute zone](#configure-the-compute-zone)
+  - [Create the Jenkins cluster](#create-the-jenkins-cluster)
+  - [Verify that the cluster is running](#verify-that-the-cluster-is-running)
+  - [Update the `kubectl` context](#update-the-kubectl-context)
+  - [Confirm that we can connect to the cluster](#confirm-that-we-can-connect-to-the-cluster)
+- [Set-up Helm](#set-up-helm)
+  - [Configure cluster administrator](#configure-cluster-administrator)
+  - [Grant `Tiller` the `cluster-admin` role](#grant-tiller-the-cluster-admin-role)
+  - [Install Helm](#install-helm)
+  - [Initialize Helm](#initialize-helm)
+- [References](#references)
+
 # Install `google-cloud-sdk`
 
 ```bash
