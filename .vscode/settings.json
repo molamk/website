@@ -1,0 +1,16 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/public": true
+  },
+"cSpell.enabledLanguageIds": [
+    "markdown"
+],
+"markdown.extension.toc.githubCompatibility": true,
+"markdown.extension.toc.levels": "1..2",
+"cSpell.words": [
+    "redirections",
+    "varchar"
+]
+}

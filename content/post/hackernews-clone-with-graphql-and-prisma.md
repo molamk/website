@@ -1,7 +1,7 @@
 ---
 title: "WIP - Hackernews Clone With Graphql and Prisma)"
 date: 2019-03-05T06:44:15-05:00
-draft: false
+draft: true
 ---
 
 # Table of contents
