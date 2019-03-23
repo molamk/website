@@ -70,7 +70,7 @@ Next we calculate how many [Queries per second](https://en.wikipedia.org/wiki/Qu
 In order to estimate the storage capacity that our system needs we require two other parameters.
 
 - **How long we will retain the data?** Let's say we'll keep URLs for 5 years. Then we will save in total around **30B** objects in our database.
-- **How much storage we need per URL?** Assuming that an URL & its shortened link (with metadata) is about _500 bytes_, we end up with **15TB** in total.
+- **How much storage we need per URL?** Assuming that an URL & its shortened link (with metadata) is about _500 bits_, we end up with **15TB** in total.
 
 ### Bandwidth
 
@@ -83,7 +83,7 @@ To calculate the bandwidth we multiply the *Queries Per Second* and the *estimat
 
 In order to read *frequently/recently retrieved* data we'll use caching. This will also help reduce the load on the database. Let's say we want to cache the **20% hottest URLs each day** from all of our URLs, *how much memory does our cache need?*
 
-Since we have **1.7B** read queries per day and our estimated object size is **500 bytes**, we end up with **170 GB** in memory for our caching needs.
+Since we have **1.7B** read queries per day and our estimated object size is **500 bits**, we end up with **170 GB** in memory for our caching needs.
 
 ### Summary
 

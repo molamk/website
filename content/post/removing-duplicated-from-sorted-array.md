@@ -72,7 +72,7 @@ Our base algorithm is fast enough as we will see in the analysis.
 # Analysis
 
 - **Time complexity** is in `O(n)`. Which is as fast as it can get since we need to iterate at least through the whole array once.
-- **Space complexity** is in `O(1)`. We're creating only two *integer* variables which have constant size (64 bytes in total).
+- **Space complexity** is in `O(1)`. We're creating only two *integer* variables which have constant size (64 bits in total).
 
 # Walk-through
 

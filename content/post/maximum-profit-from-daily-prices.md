@@ -64,7 +64,7 @@ public int maximumProfit(int[] prices) {
 # Analysis
 
 - **Time complexity** is in `O(n)`. This is the best runtime we can achieve since we need to iterate at least once on the whole array.
-- **Space complexity** is in `O(1)` which is also the best we can get since we're only creating the return variable which is an _integer_ (32 bytes).
+- **Space complexity** is in `O(1)` which is also the best we can get since we're only creating the return variable which is an _integer_ (32 bits).
 
 # Assumptions
 

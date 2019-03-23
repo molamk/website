@@ -52,7 +52,7 @@ public int singleNumber(int numbers) {
 # Analysis
 
 - **Time complexity** is in `O(n)` since we iterate over our array exactly once.
-- **Space complexity** is in `O(1)` because we only create one `integer` variable (32 bytes).
+- **Space complexity** is in `O(1)` because we only create one `integer` variable (32 bits).
 
 # Walk-through
 
